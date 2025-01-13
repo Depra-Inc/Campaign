@@ -1,7 +1,7 @@
 ﻿// SPDX-License-Identifier: Apache-2.0
-// © 2024 Nikolay Melnikov <n.melnikov@depra.org>
+// © 2024-2025 Nikolay Melnikov <n.melnikov@depra.org>
 
-using Depra.Scenes.Definitions;
+using Depra.Scenes;
 using UnityEngine;
 using static Depra.Campaign.Module;
 
