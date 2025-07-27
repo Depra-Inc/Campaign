@@ -1,5 +1,5 @@
 ﻿// SPDX-License-Identifier: Apache-2.0
-// © 2024-2025 Nikolay Melnikov <n.melnikov@depra.org>
+// © 2024-2025 Depra <n.melnikov@depra.org>
 
 using System.Linq;
 
@@ -11,6 +11,7 @@ namespace Depra.Campaign
 
 		public CampaignCompletion(CampaignDatabase database) => _database = database;
 
-		public CampaignLevel Next() => _database.Levels.First();
+		public CampaignLevel NextLevel() => _database.Levels.First();
+		public CampaignLevel CurrentLevel() => _database.Levels.First();
 	}
 }
